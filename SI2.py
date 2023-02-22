@@ -1,4 +1,3 @@
-# list = ["Apple", 7, 1, 9, "Plum", "Lemon", 0]
-list2 = [9, 8, 1, 2, 0]
-list2.sort()
-print(list2)
+list = ["Apple", 7, 1, 9, "Plum", "Lemon", 0]
+sorted_list = sorted(list, key=lambda x: (isinstance(x, str), x))
+print(sorted_list)
