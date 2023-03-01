@@ -1,9 +1,9 @@
 # неявные
-a = 5 # int
-b = 5.4 # float
-c = "Five" # string
+a = 5  # int
+b = 5.4  # float
+c = "Five"  # string
 d = True
-print(a, b ,c ,d)
+print(a, b, c, d)
 
 # явные
 a = int(5)
@@ -12,8 +12,7 @@ c = str("Five")
 d = bool(True)
 print(a, b, c, d)
 # range
-for i in range(6, 15):
-    i = i + 1
+for i in range(7, 15):
     print("Element:", i, "in range")
 # pythonUsage
 pythonUsage = '''Python is used for:
